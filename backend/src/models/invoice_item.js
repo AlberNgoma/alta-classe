@@ -12,7 +12,7 @@ module.exports = (sequelize, DataTypes) => {
   }
   invoice_item.init({
     quantity: DataTypes.INTEGER,
-    price: DataTypes.DECIMA(10, 2)
+    price: DataTypes.DECIMAL(10, 2)
   }, {
     sequelize,
     modelName: 'invoice_item',
