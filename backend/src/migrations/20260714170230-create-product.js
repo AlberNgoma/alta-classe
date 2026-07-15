@@ -30,12 +30,13 @@ module.exports = {
       },
 
       picture: {
-        type: Sequelize.BLOB,
+        type: Sequelize.STRING,
         allowNull: false
       },
 
       madeIn: {
-        type: Sequelize.STRING
+        type: Sequelize.STRING,
+        allowNull: false
       },
 
       createdAt: {

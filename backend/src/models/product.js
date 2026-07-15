@@ -15,7 +15,8 @@ module.exports = (sequelize, DataTypes) => {
     description: DataTypes.STRING,
     price: DataTypes.DECIMAL(10, 2),
     category: DataTypes.ENUM('higiene', 'protecao', 'decorativo', 'tratamento'),
-    picture: DataTypes.BLOB
+    picture: DataTypes.STRING,
+    madeIn : DataTypes.STRING
   }, {
     sequelize,
     modelName: 'product',
