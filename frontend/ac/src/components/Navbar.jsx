@@ -20,11 +20,11 @@ export default function Navbar() {
                 </section>
 
                 <section className="hidden md:flex items-center justify-center gap-5">
-                    <Link to="/" className="font-outfit text-background text-md hover:scale-105 duration-300 ease-in hover:text-secondary">Início</Link>
-                    <Link to="/" className="font-outfit text-background text-md hover:scale-105 duration-300 ease-in hover:text-secondary">Catálogo</Link>
-                    <Link to="/" className="font-outfit text-background text-md hover:scale-105 duration-300 ease-in hover:text-secondary">Destaque</Link>
-                    <Link to="/" className="font-outfit text-background text-md hover:scale-105 duration-300 ease-in hover:text-secondary">Sobre</Link>
-                    <Link to="/" className="font-outfit text-background text-md hover:scale-105 duration-300 ease-in hover:text-secondary">Contactos</Link>
+                    <Link to="/" className="font-outfit text-background text-md hover:scale-105 duration-100 ease-in hover:text-white/80">Início</Link>
+                    <Link to="/" className="font-outfit text-background text-md hover:scale-105 duration-100 ease-in hover:text-white/80">Catálogo</Link>
+                    <Link to="/" className="font-outfit text-background text-md hover:scale-105 duration-100 ease-in hover:text-white/80">Destaque</Link>
+                    <Link to="/" className="font-outfit text-background text-md hover:scale-105 duration-100 ease-in hover:text-white/80">Sobre</Link>
+                    <Link to="/" className="font-outfit text-background text-md hover:scale-105 duration-100 ease-in hover:text-white/80">Contactos</Link>
                 </section>
 
                 <section className="md:hidden flex items-center justify-center cursor-pointer">
